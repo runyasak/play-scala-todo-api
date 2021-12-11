@@ -1,0 +1,11 @@
+[0m2021.12.11 20:10:25 INFO  Started: Metals version 0.10.9 in workspace '/Users/runyazack/github-projects/play-scala-todo-api' for client Visual Studio Code 1.63.0.[0m
+[0m2021.12.11 20:10:26 INFO  time: initialize in 0.79s[0m
+[0m2021.12.11 20:10:26 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.11 20:10:33 INFO  running '/Users/runyazack/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/y3/dtxcf1jd1yl2nv2c1__yht640000gn/T/metals2050937755070930330/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.12.11 20:10:33 WARN  no build target for: /Users/runyazack/github-projects/play-scala-todo-api/project/metals.sbt[0m
+[0m2021.12.11 20:10:33 WARN  no build target for: /Users/runyazack/github-projects/play-scala-todo-api/project/project/metals.sbt[0m
+[0m2021.12.11 20:10:33 INFO  skipping build import with status 'Started'[0m
+[0m2021.12.11 20:10:34 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.2  (this may take some time)...[0m
+[0m2021.12.11 20:10:37 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Dec 11, 2021 8:10:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
