@@ -27,5 +27,11 @@ class TodoListController @Inject() (
     }
   }
 
-  def byId(itemId: Int): Action[AnyContent] = Action { NoContent }
+  def byId(itemId: Int) = Action {
+    val result = todoList.find(_.id == itemId)
+    result match {
+      case Some(item) => Ok(Json.toJson(item))
+      case None       => NotFound
+    }
+  }
 }
