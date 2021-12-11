@@ -7,3 +7,9 @@ target
 /.project
 /.settings
 /RUNNING_PID
+.metals/
+project/.bloop/
+project/project/.bloop/
+project/boot/
+project/plugins/project/
+.bloop/
