@@ -26,4 +26,6 @@ class TodoListController @Inject() (
       Ok(Json.toJson(todoList))
     }
   }
+
+  def byId(itemId: Int): Action[AnyContent] = Action { NoContent }
 }
